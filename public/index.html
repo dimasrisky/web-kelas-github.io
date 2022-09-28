@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <title>X RPL C</title>
+</head>
+<body >
+        <!-- Navbar -->
+        <nav class="bg-transparent border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+            <div class="container flex flex-wrap justify-between items-center sm:px-24">
+              <a href="#" class="flex items-center">
+                  <img src="img/logo/logo.png" class="mr-3 h-6 sm:h-9 sm:scale-105" alt="Logo">
+                  <span class="self-center text-base font-semibold whitespace-nowrap dark:text-white">VIVA RPL</span>
+              </a>
+              <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+              </button>
+              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                  <li>
+                    <a href="#jadwal-pelajaran" class="block py-2 pr-4 pl-3 text-black rounded md:bg-transparent md:text-lg md:text-jeruk md:p-0 dark:text-white duration-300 ease-in-out" aria-current="page">Jadwal Pelajaran</a>
+                  </li>
+                  <li>
+                    <a href="#jadwal-piket" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:text-lg md:hover:bg-transparent md:border-0 md:hover:text-jeruk md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent duration-300 ease-in-out">Jadwal Piket</a>
+                  </li>
+                  <li>
+                    <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:text-lg md:hover:bg-transparent md:border-0 md:hover:text-jeruk md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent duration-300 ease-in-out">Gallery</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- Hero Section -->
+        <section id="hero" class="mt-0">
+            <div class="container">
+                <div class="flex flex-col gap-6 flex-1 justify-center items-center sm:flex-row">
+                   <div class="flex flex-1 justify-center items-center flex-col">
+                      <img class="scale-100 sm:scale-75 mt-7" src="img/logo/hero.pic.png" alt="hero">
+                    </div>
+                    <div class="flex flex-col text-center flex-1 gap-4 items-center">
+                        <h1 class="text-md text-jeruk font-semibold sm:text-4xl sm:text-start">Welcome To X RPL C Class<span class="block text-md text-black sm:text-lg sm:text-start">SMK NEGERI 8 MALANG</span><span class="mt-5 max-w-lg sm:block hidden sm:text-base text-slate-600 sm:text-start">Hai, Selamat datang di kelas X RPL C yang dimana jurusan ini berfokus pada pengembangan, pemeliharaan dan pembangunan suatu perangkat lunak atau software.</span></h1>
+                        <p class="sm:text-left text-md"></p>
+                        <ul class="flex flex-1 gap-5 items-center pt-5">
+                          <li>
+                            <a href="#footer" class="px-5 py-3 sm:px-16 sm:py-8 bg-white text-jeruk border border-jeruk text-base rounded-2xl hover:bg-jeruk hover:text-white duration-300 ease-in-out ">Contact Us</a>
+                          </li>
+                          <li>
+                            <a href="#menu-card" class="px-5 py-3 sm:px-16 sm:py-8 bg-jeruk text-white border text-base rounded-2xl hover:bg-orange-700 duration-300 ease-in-out ">Get Started</a>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- Menu card -->
+    <section id="menu-card" class="mt-36">
+      <div class="container">
+        <div class="flex flex-1 gap-1 flex-col items-center justify-center text-center">
+          <h3 class="text-xl font-semibold text-black border-b-2 border-jeruk">Our Activity</h3>
+          <p class="text-md text-slate-900 mt-2">semua aktivitas yang kami lakukan.</p>
+        </div>
+        <div class="flex flex-1 gap-6 flex-wrap justify-center items-center mt-7 flex-col sm:flex-row">
+          <!-- card -->
+          <div class="px-5 py-9 border gap-3 flex flex-1 flex-col justify-center items-center shadow-xl hover:scale-105 duration-300">
+            <svg class="w-16 h-16" data-name="Layer 2" id="Layer_2" viewBox="0 0 2050 2050" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:#4d4c78;}.cls-11,.cls-2{fill:#323150;}.cls-3{fill:#67baeb;}.cls-4{fill:#f44533;}.cls-5{fill:#de3226;}.cls-6{fill:#f4c23f;}.cls-7{fill:#f4a93f;}.cls-8{fill:#c8c2e9;}.cls-9{fill:#b9b1e0;}.cls-10{fill:#b11a31;}.cls-11{opacity:0.1;}.cls-12{fill:#83d0fb;}.cls-13{opacity:0.2;}.cls-14{fill:#fff;}.cls-15{fill:#231f20;}.cls-16{fill:#fad564;}.cls-17{fill:#dfdafd;}.cls-18{fill:#f46253;}</style></defs><title/><rect class="cls-1" height="120.02" rx="60" ry="60" width="1911.2" x="69.4" y="1589.3"/><path class="cls-2" d="M1920.6,1589.3H154.9c-.1,1.3-.1,2.6-.1,3.9h0a60,60,0,0,0,60,60.1H1980.4c.1-1.4.2-2.7.2-4h0A60,60,0,0,0,1920.6,1589.3Z"/><rect class="cls-3" height="1158.16" transform="translate(-147.9 290.1) rotate(-10)" width="273.3" x="1440.7" y="408"/><rect class="cls-3" height="1252.55" width="295.6" x="237.1" y="340.7"/><rect class="cls-4" height="1252.55" width="295.6" x="1017.2" y="340.7"/><polygon class="cls-5" points="1017.2 1593.2 1312.8 1593.2 1312.8 340.7 1262.8 340.7 1262.8 1536.4 1017.2 1536.4 1017.2 1593.2"/><rect class="cls-6" height="1166.42" width="242.6" x="532.7" y="426.8"/><path class="cls-7" d="M711.9,426.8V1371c0,98.9-80.2,179.2-179.2,179.2h0v43H775.3V426.8Z"/><rect class="cls-8" height="1089.46" width="242.6" x="774.6" y="503.8"/><path class="cls-9" d="M970.7,503.8v854.9c0,108.3-87.8,196.1-196.1,196.1h0v38.4h242.6V503.8Z"/><rect class="cls-1" height="87.09" width="295.6" x="237.1" y="538.2"/><rect class="cls-1" height="87.09" width="295.6" x="237.1" y="1308.7"/><rect class="cls-7" height="847.15" width="60.7" x="618.1" y="600.4"/><path class="cls-1" d="M950.7,678.9H841.1a20,20,0,0,1,0-40H950.7a20,20,0,0,1,0,40Z"/><path class="cls-1" d="M950.7,780.2H841.1a20,20,0,0,1,0-40H950.7a20,20,0,0,1,0,40Z"/><path class="cls-1" d="M950.7,881.4H841.1a20,20,0,0,1,0-40H950.7a20,20,0,0,1,0,40Z"/><path class="cls-1" d="M931.9,1488.6h-72a20,20,0,0,1,0-40h72a20,20,0,1,1,0,40Z"/><path class="cls-10" d="M1110.3,1401.7a20.1,20.1,0,0,1-20-20V552.3a20,20,0,0,1,40,0v829.4A20,20,0,0,1,1110.3,1401.7Z"/><path class="cls-10" d="M1219.6,1401.7a20,20,0,0,1-20-20V552.3a20,20,0,0,1,40,0v829.4A20.1,20.1,0,0,1,1219.6,1401.7Z"/><polygon class="cls-1" points="1786.1 1382.3 1786.1 1382.3 1517 1430 1524 1469.4 1793.1 1421.7 1786.1 1382.3"/><rect class="cls-1" height="40" transform="translate(-72.6 269.8) rotate(-10)" width="273.3" x="1363" y="528.3"/><polygon class="cls-1" points="1682.1 794.6 1682.1 794.6 1675.1 755.3 1675.1 755.3 1406 802.9 1406 802.9 1413 842.3 1413 842.3 1682.1 794.6"/><polygon class="cls-1" points="1748.8 1171.2 1741.8 1131.8 1472.6 1179.5 1479.6 1218.9 1479.6 1218.9 1748.8 1171.2"/><path class="cls-11" d="M447.3,1319.3V340.7h85.4V1593.2H237.1v-63.7h0C353.2,1529.5,447.3,1435.4,447.3,1319.3Z"/><path class="cls-11" d="M1611,393l-68.5,12.2L1701.2,1302c18.8,106-51.9,207.2-158,225.9l-8.6,1.6,9.1,51.6,269.2-47.6Z"/><rect class="cls-12" height="524.76" rx="32.4" ry="32.4" width="64.8" x="237.1" y="720.7"/><g class="cls-13"><rect class="cls-14" height="584.09" rx="36.1" ry="36.1" transform="translate(-143.8 271.3) rotate(-10)" width="72.2" x="1436.6" y="662.2"/><path class="cls-15" d="M1517.2,1242.9a36.6,36.6,0,0,1-36-30.3L1392,708.5a36.6,36.6,0,0,1,29.6-42.4,36.7,36.7,0,0,1,42.5,29.7l89.2,504.1a36.6,36.6,0,0,1-29.6,42.4v0A35.7,35.7,0,0,1,1517.2,1242.9ZM1428,666.6a33.4,33.4,0,0,0-6.2.6,35.4,35.4,0,0,0-28.7,41.2l89.2,504a35.6,35.6,0,0,0,41.2,28.8,35.4,35.4,0,0,0,28.7-41.1L1463,696A35.6,35.6,0,0,0,1428,666.6Z"/></g><rect class="cls-12" height="133.95" rx="32.4" ry="32.4" width="64.8" x="237.1" y="370.8"/><rect class="cls-16" height="586.49" rx="24.3" ry="24.3" width="48.6" x="532.7" y="446.9"/><rect class="cls-17" height="331.71" rx="23.2" ry="23.2" width="46.5" x="774.6" y="947.6"/><rect class="cls-17" height="57.13" rx="19.2" ry="19.2" width="121.3" x="774.6" y="503.8"/><rect class="cls-18" height="755.16" rx="19.4" ry="19.4" width="38.9" x="1017.2" y="503.8"/></svg>
+            <a href="#"><h4 class=" text-xl text-blue-700">Jadwal Pelajaran</h4></a>
+            <p class="text-base text-slate-700 text-center px-2">jadwal pelajaran kelas X RPL C Tahun 2022-2023</p>
+          </div>
+          <!-- card -->
+          <div class="px-5 py-9 border gap-3 flex flex-1 flex-col justify-center items-center shadow-xl hover:scale-105 duration-300">
+            <svg class="w-16 h-16" data-name="Слой 1" id="Слой_1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><title/><path d="M58,128H10a2,2,0,0,1-2-1.87l-4-64A2,2,0,0,1,6,60H62a2,2,0,0,1,2,2.13l-4,64A2,2,0,0,1,58,128Zm-46.12-4H56.12l3.75-60H8.13Z"/><path d="M66,64H2a2,2,0,0,1,0-4H66a2,2,0,0,1,0,4Z"/><path d="M60,83.59a20.35,20.35,0,0,1-9.64-2.18,16.54,16.54,0,0,0-8-1.82,16.48,16.48,0,0,0-8,1.82,20.47,20.47,0,0,1-9.64,2.18,20.47,20.47,0,0,1-9.64-2.18,16.54,16.54,0,0,0-8-1.82,2,2,0,1,1,0-4,20.47,20.47,0,0,1,9.64,2.18,16.36,16.36,0,0,0,8,1.82,16.42,16.42,0,0,0,8-1.82,20.47,20.47,0,0,1,9.64-2.18A20.47,20.47,0,0,1,52,77.77a16.42,16.42,0,0,0,8,1.82,2,2,0,0,1,0,4Z"/><path d="M94,73H82a2,2,0,0,1-2-2V8A8,8,0,0,1,96,8V71A2,2,0,0,1,94,73ZM84,69h8V8a4,4,0,0,0-8,0Z"/><path d="M79,93a2,2,0,0,1-2-2V71a2,2,0,0,1,2-2H97a2,2,0,0,1,2,2V82a2,2,0,0,1-4,0V73H81V91A2,2,0,0,1,79,93Z"/><path d="M122.62,121.83h-.15c-.59,0-14.51-1.1-22.43-3.08-8.35-2.09-16.37-11-16.71-11.41a2,2,0,0,1,3-2.66c.08.09,7.54,8.4,14.69,10.19,7.59,1.89,21.62,3,21.76,3a2,2,0,0,1-.15,4Z"/><path d="M114.26,107a2,2,0,0,1-1-.29c-14.63-9-35.19-10.49-35.4-10.5A2,2,0,0,1,76,94.1a2,2,0,0,1,2.14-1.85c.88.06,21.76,1.61,37.21,11.08a2,2,0,0,1-1,3.7Z"/><path d="M120.47,114.94a2,2,0,0,1-1.66-.88c-.11-.17-11.39-16.74-22.89-20.88a89.71,89.71,0,0,0-13.81-3.3,2,2,0,1,1,.6-4,92.8,92.8,0,0,1,14.57,3.5C110,94,121.64,111.1,122.13,111.82a2,2,0,0,1-1.66,3.12Z"/><path d="M108.75,128c-10,0-21.44-1.94-28.77-9.27a22.13,22.13,0,0,1,0-31.28h0a22.15,22.15,0,0,1,31.28,0c6.32,6.32,8.53,14.9,10.49,22.47.17.65.33,1.31.5,1.95l5,4a2,2,0,0,1,.75,1.5,4.25,4.25,0,0,1-2.61,3.84,19.43,19.43,0,0,0,1.22,2.18,2,2,0,0,1-1.32,3A94.08,94.08,0,0,1,108.75,128ZM82.81,90.26a18.12,18.12,0,0,0,0,25.62c9.87,9.87,28.89,8.61,39,7.07-.37-.74-.71-1.54-1-2.39a2,2,0,0,1,.17-1.8,2,2,0,0,1,1.55-.92,5,5,0,0,0,.72-.11l-4-3.17a2,2,0,0,1-.68-1l-.69-2.62c-1.91-7.42-3.89-15.09-9.44-20.64a18.12,18.12,0,0,0-25.62,0ZM124,117.31Z"/><path d="M120.49,115h-.18a84.9,84.9,0,0,1-13.18-2.25c-5.33-1.57-7.83-3.86-8.09-4.12a2,2,0,1,1,2.77-2.88,17.24,17.24,0,0,0,6.45,3.16A83.39,83.39,0,0,0,120.67,111a2,2,0,0,1-.18,4Z"/></svg>
+            <a href="#"><h4 class=" text-xl text-blue-700">Jadwal Piket</h4></a>
+            <p class="text-base text-slate-700 text-center px-2">Jadwal piket siswa/siswi X RPL C Tahun 2022 - 2023</p>
+          </div>
+          <!-- card -->
+           <div class="px-10 py-11 border gap-3 flex flex-1 flex-col justify-center items-center shadow-xl hover:scale-105 duration-300">
+            <svg class="w-16 h-16" id="Icons" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:#fff;}.cls-3{fill:url(#linear-gradient-2);}</style><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="12" x2="12" y1="1" y2="17.101"><stop offset="0" stop-color="#a6f9ff"/><stop offset="1" stop-color="#3ed0f7"/></linearGradient><linearGradient id="linear-gradient-2" x1="12.05" x2="12.05" xlink:href="#linear-gradient" y1="12.159" y2="22.632"/></defs><rect class="cls-1" height="22" rx="4" width="22" x="1" y="1"/><circle class="cls-2" cx="7" cy="7" r="2"/><path class="cls-3" d="M23,18v1a4,4,0,0,1-4,4H5a4,4,0,0,1-3.9-3.1l7.193-7.193a1,1,0,0,1,1.414,0l1.807,1.807a1,1,0,0,0,1.46-.05L15.3,11.806a1,1,0,0,1,1.46-.05Z"/></svg>
+            <a href="#"><h4 class=" text-xl text-blue-700">Gallery</h4></a>
+            <p class="text-base text-slate-700 text-center px-2">Album Foto kelas X RPL C </p>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- profil kelas -->
+     <section id="profil-kelas" class="mt-16 ">
+            <div class="container">
+                <div class="flex flex-col flex-1 justify-center items-center sm:flex-row">
+                  <div class="flex flex-1 flex-col">
+                    <img class="scale-50 sm:scale-50" src="img/logo/logo.png" alt="hero">
+                  </div>
+                  <div class="flex flex-col flex-1 gap-4">
+                      <h1 class="text-2xl font-semibold sm:text-3xl sm:text-start text-jeruk">Profil X RPL C | Viva Rpl</h1>
+                      <p class="sm:text-left text-md">X RPL C Adalah sebuah kelas di Smkn 8 Malang yang mempelajari dan mendalami semua cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak dan manajemen kualitas.</p>
+                      <p class="sm:text-left text-md">Dengan Pak Bambang sebagai Wali kelas kami sekaligus guru pada mapel matematika, pada pelajaran produktif kami diajar oleh Bu Dian selaku mapel pengembangan perangkat lunak dan pak Sultoni pada mapel pengembangan gim.</p>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- jadwal pelajaran -->
+    <section id="jadwal-pelajaran" class="mt-20">
+      <div class="container">
+        <div class="flex flex-col gap-5 justify-center">
+          <h1 class="text-md md:text-2xl font-semibold text-center">Jadwal pelajaran Siswa/Siswi X RPL C Tahun Ajaran 2022/2023</h1>
+          <div class="overflow-scroll relative">
+              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                  <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                      <tr>
+                          <th scope="col" class="py-3 px-6">
+                              Senin
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Selasa
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Rabu
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Kamis
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Jumat
+                          </th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="bg-white border-b-2 dark:bg-gray-800 dark:border-gray-700">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Matematika
+                          </th>
+                          <td class="py-4 px-6">
+                              Bahasa Indonesia
+                          </td>
+                          <td class="py-4 px-6">
+                              Bahasa Inggris
+                          </td>
+                          <td class="py-4 px-6">
+                              Informatika
+                          </td>
+                          <td class="py-4 px-6">
+                              IPAS
+                          </td>
+                      </tr>
+                      <tr class="bg-white border-b-2 dark:bg-gray-800 dark:border-gray-700">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Perangkat Lunak
+                          </th>
+                          <td class="py-4 px-6">
+                              Olahraga
+                          </td>
+                          <td class="py-4 px-6">
+                              Seni Budaya
+                          </td>
+                          <td class="py-4 px-6">
+                              Pengembangan GIM
+                          </td>
+                          <td class="py-4 px-6">
+                              PAI
+                          </td>
+                      </tr>
+                      <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              
+                          </th>
+                          <td class="py-4 px-6">
+                              Matematika
+                          </td>
+                          <td class="py-4 px-6">
+                              Sejarah
+                          </td>
+                          <td class="py-4 px-6">
+                              
+                          </td>
+                      </tr>
+                       <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              
+                          </th>
+                          <td class="py-4 px-6">
+                              Bahasa Jawa
+                          </td>
+                          <td class="py-4 px-6">
+                              Pkn
+                          </td>
+                          <td class="py-4 px-6">
+                              
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Jadwal Piket -->
+    <section id="jadwal-piket" class="mt-20">
+      <div class="container">
+        <div class="flex flex-col gap-5 justify-center">
+          <h1 class="text-md md:text-2xl font-semibold text-center">Jadwal Piket Kebersihan Siswa/Siswi X RPL C Tahun Ajaran 2022/2023</h1>
+          <div class="overflow-scroll relative">
+              <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                  <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                      <tr>
+                          <th scope="col" class="py-3 px-6">
+                              Senin
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Selasa
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Rabu
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Kamis
+                          </th>
+                          <th scope="col" class="py-3 px-6">
+                              Jumat
+                          </th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr class="bg-white border-b-2 dark:bg-gray-800 dark:border-gray-700">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Hanun
+                          </th>
+                          <td class="py-4 px-6">
+                              Dinda
+                          </td>
+                          <td class="py-4 px-6">
+                              Livia
+                          </td>
+                          <td class="py-4 px-6">
+                              Niansa
+                          </td>
+                          <td class="py-4 px-6">
+                              Maulidia
+                          </td>
+                      </tr>
+                      <tr class="bg-white border-b-2 dark:bg-gray-800 dark:border-gray-700">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Toni
+                          </th>
+                          <td class="py-4 px-6">
+                              Fadil
+                          </td>
+                          <td class="py-4 px-6">
+                              Max
+                          </td>
+                          <td class="py-4 px-6">
+                              Nobel
+                          </td>
+                          <td class="py-4 px-6">
+                              Safira
+                          </td>
+                      </tr>
+                      <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Alisa
+                          </th>
+                          <td class="py-4 px-6">
+                              Farel
+                          </td>
+                          <td class="py-4 px-6">
+                              Melvin
+                          </td>
+                          <td class="py-4 px-6">
+                              Rafi
+                          </td>
+                           <td class="py-4 px-6">
+                              Silvi
+                          </td>
+                      </tr>
+                       <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Alden
+                          </th>
+                          <td class="py-4 px-6">
+                              Gabriel Ire
+                          </td>
+                          <td class="py-4 px-6">
+                              Miranda
+                          </td>
+                          <td class="py-4 px-6">
+                              Rahmat
+                          </td>
+                          <td class="py-4 px-6">
+                              Viola
+                          </td>
+                      </tr>
+                       <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Aldro
+                          </th>
+                          <td class="py-4 px-6">
+                              Jofita
+                          </td>
+                          <td class="py-4 px-6">
+                              Daffa
+                          </td>
+                          <td class="py-4 px-6">
+                              Raina
+                          </td>
+                          <td class="py-4 px-6">
+                              Vioalayta
+                          </td>
+                      </tr>
+                       <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Della
+                          </th>
+                          <td class="py-4 px-6">
+                              Kezia
+                          </td>
+                          <td class="py-4 px-6">
+                              Nazril
+                          </td>
+                          <td class="py-4 px-6">
+                              Putra
+                          </td>
+                          <td class="py-4 px-6">
+                              Yulia
+                          </td>
+                      </tr>
+                       <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Azizah
+                          </th>
+                          <td class="py-4 px-6">
+                              Nayla
+                          </td>
+                          <td class="py-4 px-6">
+                              Satrio
+                          </td>
+                          <td class="py-4 px-6">
+                              Yustina
+                          </td>
+                          <td class="py-4 px-6">
+                              
+                          </td>
+                      </tr>
+                       <tr class="bg-white border-b-2 dark:bg-gray-800">
+                          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                              Dimas
+                          </th>
+                          <td class="py-4 px-6">
+                              
+                          </td>
+                          <td class="py-4 px-6">
+                              
+                          </td>
+                          <td class="py-4 px-6">
+                              
+                          </td>
+                          <td class="py-4 px-6">
+                              
+                          </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+    </section>
+   <!-- footer -->
+   <section id="footer"  class="bg-slate-700">
+     <div class="container mt-20 px-9 py-12 flex justify-center flex-col sm:flex-row">
+            <!-- social media -->
+            <div class="flex flex-1 flex-col gap-3 sm:translate-x-40">
+                <h1 class="font-bold text-2xl text-white">Follow Us</h1>
+                <p class="text-slate-400 text-xs max-w-md">Jangan lupa follow Sosial Media kami!</p>
+                <div class="flex flex-col">
+                    <h2 class="text-sm text-slate-400 uppercase">social media</h2>
+                    <div class="flex flex-row gap-5 pt-6">
+                        <!-- icon -->
+                        <div>
+                            <a href="#">
+                                <svg class="w-6 h-6" height="512px" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="_x33_35-telegram"><g><g><path d="M484.689,98.231l-69.417,327.37c-5.237,23.105-18.895,28.854-38.304,17.972L271.2,365.631     l-51.034,49.086c-5.646,5.647-10.371,10.372-21.256,10.372l7.598-107.722L402.539,140.23c8.523-7.598-1.848-11.809-13.247-4.21     L146.95,288.614L42.619,255.96c-22.694-7.086-23.104-22.695,4.723-33.579L455.423,65.166     C474.316,58.081,490.85,69.375,484.689,98.231z" style="fill:#20A0E1;"/></g></g></g><g id="Layer_1"/></svg>
+                            </a>
+                        </div>
+                        <!-- icon -->
+                        <div>
+                            <a href="#">
+                                <svg class="w-6 h-6" id="Apple" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style>.cls-1{fill:url(#Nepojmenovaný_přechod_27);}.cls-2{fill:#fff;}</style><linearGradient gradientUnits="userSpaceOnUse" id="Nepojmenovaný_přechod_27" x1="328.27" x2="183.73" y1="508.05" y2="3.95"><stop offset="0" stop-color="#ffdb73"/><stop offset="0.08" stop-color="#fdad4e"/><stop offset="0.15" stop-color="#fb832e"/><stop offset="0.19" stop-color="#fa7321"/><stop offset="0.23" stop-color="#f6692f"/><stop offset="0.37" stop-color="#e84a5a"/><stop offset="0.48" stop-color="#e03675"/><stop offset="0.55" stop-color="#dd2f7f"/><stop offset="0.68" stop-color="#b43d97"/><stop offset="0.97" stop-color="#4d60d4"/><stop offset="1" stop-color="#4264db"/></linearGradient></defs><title/><rect class="cls-1" height="465.06" rx="107.23" ry="107.23" width="465.06" x="23.47" y="23.47"/><path class="cls-2" d="M331,115.22a66.92,66.92,0,0,1,66.65,66.65V330.13A66.92,66.92,0,0,1,331,396.78H181a66.92,66.92,0,0,1-66.65-66.65V181.87A66.92,66.92,0,0,1,181,115.22H331m0-31H181c-53.71,0-97.66,44-97.66,97.66V330.13c0,53.71,44,97.66,97.66,97.66H331c53.71,0,97.66-44,97.66-97.66V181.87c0-53.71-43.95-97.66-97.66-97.66Z"/><path class="cls-2" d="M256,198.13A57.87,57.87,0,1,1,198.13,256,57.94,57.94,0,0,1,256,198.13m0-31A88.87,88.87,0,1,0,344.87,256,88.87,88.87,0,0,0,256,167.13Z"/><circle class="cls-2" cx="346.81" cy="163.23" r="21.07"/></svg>
+                            </a>
+                        </div>
+                        <!-- icon -->
+                        <div>
+                            <a href="#">
+                                <svg class="w-6 h-6" enable-background="new 0 0 48 48" id="Layer_1" version="1.1" viewBox="0 0 48 48" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><circle cx="24" cy="24" fill="#1CB7EB" r="24"/><g><g><path d="M36.8,15.4c-0.9,0.5-2,0.8-3,0.9c1.1-0.7,1.9-1.8,2.3-3.1c-1,0.6-2.1,1.1-3.4,1.4c-1-1.1-2.3-1.8-3.8-1.8    c-2.9,0-5.3,2.5-5.3,5.7c0,0.4,0,0.9,0.1,1.3c-4.4-0.2-8.3-2.5-10.9-5.9c-0.5,0.8-0.7,1.8-0.7,2.9c0,2,0.9,3.7,2.3,4.7    c-0.9,0-1.7-0.3-2.4-0.7c0,0,0,0.1,0,0.1c0,2.7,1.8,5,4.2,5.6c-0.4,0.1-0.9,0.2-1.4,0.2c-0.3,0-0.7,0-1-0.1    c0.7,2.3,2.6,3.9,4.9,3.9c-1.8,1.5-4.1,2.4-6.5,2.4c-0.4,0-0.8,0-1.3-0.1c2.3,1.6,5.1,2.6,8.1,2.6c9.7,0,15-8.6,15-16.1    c0-0.2,0-0.5,0-0.7C35.2,17.6,36.1,16.6,36.8,15.4z" fill="#FFFFFF"/></g></g></svg>
+                            </a>
+                        </div>
+                        <!-- icon -->
+                        <div>
+                            <a href="#">
+                                <svg class="w-6 h-6" height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M512,256c0,-141.385 -114.615,-256 -256,-256c-141.385,0 -256,114.615 -256,256c0,127.777 93.616,233.685 216,252.89l0,-178.89l-65,0l0,-74l65,0l0,-56.4c0,-64.16 38.219,-99.6 96.695,-99.6c28.009,0 57.305,5 57.305,5l0,63l-32.281,0c-31.801,0 -41.719,19.733 -41.719,39.978l0,48.022l71,0l-11.35,74l-59.65,0l0,178.89c122.385,-19.205 216,-125.113 216,-252.89Z" style="fill:#1877f2;fill-rule:nonzero;"/><path d="M355.65,330l11.35,-74l-71,0l0,-48.022c0,-20.245 9.917,-39.978 41.719,-39.978l32.281,0l0,-63c0,0 -29.297,-5 -57.305,-5c-58.476,0 -96.695,35.44 -96.695,99.6l0,56.4l-65,0l0,74l65,0l0,178.89c13.033,2.045 26.392,3.11 40,3.11c13.608,0 26.966,-1.065 40,-3.11l0,-178.89l59.65,0Z" style="fill:#fff;fill-rule:nonzero;"/></g></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- form contact -->
+            <div class="flex flex-1 flex-col gap-8 mt-11 sm:mt-0">
+                <h1 class="font-bold text-2xl text-white">Contact Us</h1>
+                <form class="flex flex-1 gap-5 flex-col">
+                    <!-- Name -->
+                    <h3 class="text-slate-500 text-md">Name</h3>
+                    <div class="border-b-2 border-slate-400">
+                        <input type="text" placeholder="Your name..." class="border-none outline-none bg-transparent text-white text-base w-full">
+                    </div>
+                    <!-- email -->
+                    <h3 class="text-slate-500 text-md mt-5">Email</h3>
+                    <div class="border-b-2 border-slate-400">
+                        <input type="email" placeholder="Your email..." class="border-none outline-none bg-transparent text-white text-base w-full">
+                    </div>
+                    <!-- messages -->
+                    <h3 class="text-slate-500 text-md mt-5">Your Messages</h3>
+                    <div class="border-b-2 border-slate-400">
+                        <textarea id="messages" cols="4" rows="4" placeholder="type here..." class="border-none outline-none bg-transparent text-white text-base w-full"></textarea>
+                    </div>
+                </form>
+                <div class="mt-9">
+                    <input type="submit" value="Contact Us" class="px-8 py-3 bg-green-400 rounded-full text-white text-md hover:bg-green-500 duration-300 ease-in-out">
+                </div>
+            </div>
+   </section>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+</html>
